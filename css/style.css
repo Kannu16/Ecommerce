@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	background-image: linear-gradient(315deg, #fff 0%, #d7e1ec 74%)
+}
+.my-started-btn {
+	background-color: #324ab2;
+	color: #fff
+}
+.my-login-btn {
+	outline: none;
+	font-weight: 400
+}
+.my-login-btn:hover {
+	border: none;
+	text-decoration: underline
+}
+.my-link {
+	font-weight: bold;
+	font-size: 0.9rem
+}
+.content-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.3rem;
+	font-weight: bold;
+	margin: 7rem auto
+}
+.text {
+	color: #696969;
+	margin-top: -90px !important
+}
+.store-btn {
+	background-color: #324ab2;
+	color: #fff;
+	padding: 1.1rem 3rem;
+	border-radius: 50px;
+	border-color: #324ab2;
+	border: none
+}
+.my-card {
+	background-color: unset;
+	border: none
+}
+.second-part {
+	justify-content: space-between
+}
+.sec-text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #343434;
+	opacity: 0.9;
+	letter-spacing: 1px
+}
+.logo {
+	width: 100%;
+	height: 100%
+}
+.my-navbar {
+	transition-duration: 0.7s
+}
+.my-navbar:hover {
+	background-color: #e3edf7;
+	box-shadow: -1px 5px 5px -1px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: -1px 5px 5px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 5px 5px -1px rgba(0, 0, 0, 0.75);
+	transition: ease-in 0.2s
+}
+@media(max-width: 1205px) {
+	.second-part {
+		flex-wrap: wrap;
+		justify-content: center
+	}
+}
